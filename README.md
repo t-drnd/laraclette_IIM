@@ -33,64 +33,74 @@ Application web de streaming musical inspirée de Spotify, construite avec Larav
 ## 🔧 Installation
 
 1. **Cloner le dépôt**
-   ```bash
-   git clone https://github.com/VOTRE_USERNAME/laraclette_IIM.git
-   cd laraclette_IIM
-   ```
+
+    ```bash
+    git clone https://github.com/VOTRE_USERNAME/laraclette_IIM.git
+    cd laraclette_IIM
+    ```
 
 2. **Installer les dépendances PHP**
-   ```bash
-   composer install
-   ```
+
+    ```bash
+    composer install
+    ```
 
 3. **Installer les dépendances Node.js**
-   ```bash
-   npm install
-   ```
+
+    ```bash
+    npm install
+    ```
 
 4. **Configurer l'environnement**
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   ```
+
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
 
 5. **Configurer la base de données**
-   
-   Modifiez `.env` pour configurer votre base de données :
-   ```env
-   DB_CONNECTION=sqlite
-   DB_DATABASE=/chemin/vers/database/database.sqlite
-   ```
-   
-   Ou créez le fichier SQLite :
-   ```bash
-   touch database/database.sqlite
-   ```
+
+    Modifiez `.env` pour configurer votre base de données :
+
+    ```env
+    DB_CONNECTION=sqlite
+    DB_DATABASE=/chemin/vers/database/database.sqlite
+    ```
+
+    Ou créez le fichier SQLite :
+
+    ```bash
+    touch database/database.sqlite
+    ```
 
 6. **Exécuter les migrations**
-   ```bash
-   php artisan migrate
-   ```
+
+    ```bash
+    php artisan migrate
+    ```
 
 7. **Créer le lien symbolique pour le storage**
-   ```bash
-   php artisan storage:link
-   ```
+
+    ```bash
+    php artisan storage:link
+    ```
 
 8. **Compiler les assets**
-   ```bash
-   npm run build
-   ```
-   
-   Ou en mode développement :
-   ```bash
-   npm run dev
-   ```
+
+    ```bash
+    npm run build
+    ```
+
+    Ou en mode développement :
+
+    ```bash
+    npm run dev
+    ```
 
 9. **Lancer le serveur**
-   ```bash
-   php artisan serve
-   ```
+    ```bash
+    php artisan serve
+    ```
 
 L'application sera accessible sur `http://localhost:8000`
 
