@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "noImplicitAny": false,
+        "paths": {
+            "@/*": [
+                "resources/js/*"
+            ]
+        },
+        "sourceMap": true,
+        "strict": true,
+        "target": "ESNext",
+        "types": [
+            "vite/client",
+            "@inertiajs/vue3"
+        ],
+        "skipLibCheck": true,
+        "lib": [
+            "ESNext",
+            "DOM",
+            "DOM.Iterable"
+        ]
+    },
+    "include": [
+        "resources/js/**/*.ts",
+        "resources/js/**/*.d.ts",
+        "resources/js/**/*.vue"
+    ]
+}
+

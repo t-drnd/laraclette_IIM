@@ -1,0 +1,15 @@
+; Configuration PHP pour augmenter les limites d'upload
+; Copiez ce fichier vers php.ini et démarrez le serveur avec :
+; php -c php.ini artisan serve
+
+upload_max_filesize = 20M
+post_max_size = 25M
+max_execution_time = 300
+max_input_time = 300
+memory_limit = 256M
+
+
+
+
+
+
